@@ -263,6 +263,7 @@ img {
 
 .section-footer {
   background-color: var(--navy-blue-modal-color);
+  padding: 100px 0;
 }
 
 .footer-paragraph {
