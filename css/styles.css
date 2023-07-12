@@ -14,7 +14,11 @@
 }
 
 
-
+.header-top {
+  width: 1440px;
+  height: 72px;
+  flex-shrink: 0;
+}
 
 .logo-class {
   color: var(--iris-color);
@@ -25,10 +29,19 @@
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   text-transform: uppercase;
+  display: flex;
+  width: 44px;
+  flex-direction: column;
+  justify-content: center;
+  
 }
 
 .span-logo {
   color: var(--navy-blue-modal-color);
+  display: flex;
+  width: 71px;
+  flex-direction: column;
+  justify-content: center;
 }
   
 .span-logo-two {
@@ -40,6 +53,9 @@
 }
 .list  {
   list-style: none;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .list:hover,
@@ -63,6 +79,7 @@
 
 .nav-address{
   font-style:normal;
+
 }
 
 
