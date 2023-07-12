@@ -13,6 +13,12 @@
   --dairy: #FCFCFC;
 }
 
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
 img {
   display: block;
 }
