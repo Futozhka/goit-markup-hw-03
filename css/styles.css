@@ -143,8 +143,8 @@ img {
 
 }
 
-.list-item {
-  flex-basis: calc((100% - 72px) / 4);
+.list-two:first-child {
+  width: calc((100% - 72px) / 4);
 }
 
 .list-item-three {
