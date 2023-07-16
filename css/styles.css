@@ -66,6 +66,10 @@ img {
   display: inline-block;
 }
 
+.section-footer .logo-class {
+  margin-bottom: 16px;
+}
+
 .span-logo {
   color: var(--navy-blue-modal-color);
 }
