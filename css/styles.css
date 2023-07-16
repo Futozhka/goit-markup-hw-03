@@ -13,6 +13,9 @@
   --dairy: #FCFCFC;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
 
 ul {
   margin: 0;
@@ -25,6 +28,10 @@ img {
 
 .header-top {
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  align-items: center;
 }
 
 .header-container:first-child {
@@ -57,7 +64,6 @@ img {
   text-transform: uppercase;
   margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .span-logo {
@@ -106,7 +112,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 
 }
 
@@ -117,6 +122,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--navy-blue-modal-color);
   padding: 24px 0;
+  display: block;
 
 }
 
@@ -127,6 +133,7 @@ img {
 
 .nav-address{
   font-style:normal;
+  margin-left: auto;
 
 }
 
@@ -211,6 +218,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--white-color);
   padding: 188px 0;
+ 
 }
 
 .section-one-portfolio {
@@ -223,6 +231,8 @@ img {
   font-size: 56px;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .section-two {
@@ -249,6 +259,7 @@ img {
 
 .section-four {
   padding: 120px 0;
+  background-color: var(--cloud-color);
 }
 
 .section-four-header {
@@ -293,9 +304,7 @@ img {
   margin-bottom: 72px;
 }
 
-.section-three {
-  background-color: var(--cloud-color);
-}
+
 
 .list-four{
   background-color: var(--white-color);
@@ -336,6 +345,8 @@ body {
   height: 56px;
   border: none; 
   border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .button-class:hover,
