@@ -46,6 +46,7 @@ img {
 
 .container-two {
   display: flex; 
+  align-items: center;
 }
 
 .header-nav {
@@ -172,6 +173,7 @@ img {
 .list-item-four {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  background-color: var(--white-color);
 }
 
 .list-person {
@@ -237,6 +239,7 @@ img {
   max-width: 496px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 48px;
 }
 
 .section-two {
@@ -311,7 +314,7 @@ img {
 
 
 .list-four{
-  background-color: var(--white-color);
+ 
 
 }
 
